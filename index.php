@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,9 @@
 </head>
 <body>
     <div id="demo">
-Hello
+<?php
+echo "hello there" 
+?>
     </div>
     <script >
     fetch("http://192.168.43.40:3600", (data, error)=>{
@@ -23,3 +26,4 @@ else{
 
 </body>
 </html>
+?>
